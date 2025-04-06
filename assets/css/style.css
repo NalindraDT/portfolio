@@ -83,20 +83,20 @@ h6 {
 
 #header h1 a
  {
-  color: #000000;
-  line-height: 1;
-  display: inline-block;
-}
-#header h1 a:hover {
   color: #f0eaea;
   line-height: 1;
   display: inline-block;
 }
+/* #header h1 a:hover {
+  color:  #000000;
+  line-height: 1;
+  display: inline-block;
+} */
 
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 #header h2 span {
@@ -161,7 +161,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.9);
+  background: #000000;
 }
 
 #header.header-top .social-links,
@@ -270,7 +270,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #000000;
+  color: #fff;
 }
 
 /**
